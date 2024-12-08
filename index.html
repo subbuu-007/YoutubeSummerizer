@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="ms.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">My Website</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Your New Favorite Platform!</h2>
+      <p>Explore, Connect, and Grow with our comprehensive features designed for everyone.</p>
+      <a href="signup.html" class="hero-btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Our platform is built to empower you to connect with like-minded individuals and enhance your online experience. We believe in the power of community and strive to provide a safe, engaging space for everyone.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="features-list">
+        <div class="feature-item">
+          <h3>Social Connect</h3>
+          <p>Find and connect with people who share your interests.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Customizable Profiles</h3>
+          <p>Showcase your personality and interests with customizable profiles.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Secure Messaging</h3>
+          <p>Communicate safely with end-to-end encryption.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions? Get in touch with our team!</p>
+      <form action="/submit-contact" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
